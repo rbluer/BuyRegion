@@ -5,7 +5,7 @@ import com.region.buyregion.BuyRegion;
 import net.md_5.bungee.api.ChatColor;
 
 public class ChatHelper {
-    private static final String name = BuyRegion.instance.getName();
+    private static final String name = BuyRegion.instance.locale.get("ChatPrefix");
 
     public static String notice(String msg, Object... args) {
         return format(ChatColor.AQUA, msg, args);
@@ -16,7 +16,7 @@ public class ChatHelper {
     }
 
     private static String format(ChatColor color, String msg, Object... args) {
-        return String.format("%s[%s] %s%s", color, name, ChatColor.YELLOW, BuyRegion.instance.locale.get(msg, args));
+        return String.format("%s%s %s%s", color, name, ChatColor.YELLOW, BuyRegion.instance.locale.get(msg, args));
     }
 
 }

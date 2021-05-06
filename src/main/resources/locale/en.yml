@@ -1,3 +1,4 @@
+ChatPrefix: "[BuyRegion]"
 InvalidPriceTime: Invalid sign. Invalid price or timespan!
 RegionNoExist: Invalid sign. Region doesn't exist!
 EvictedFrom: You have been evicted from %s

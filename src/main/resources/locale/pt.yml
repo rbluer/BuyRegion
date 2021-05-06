@@ -1,3 +1,4 @@
+ChatPrefix: "[BuyRegion]"
 InvalidPriceTime: Placa inválida. Preço ou data incorretos!
 RegionNoExist: Placa inválida.. Região não existe!
 EvictedFrom: Você foi despejado de %s
